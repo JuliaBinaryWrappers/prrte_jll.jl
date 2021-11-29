@@ -1,6 +1,6 @@
 name = "prrte_jll"
 uuid = "eb928a42-fffd-568d-ab9c-3f5d54fc65b9"
-version = "2.0.0+1"
+version = "2.0.0+2"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
