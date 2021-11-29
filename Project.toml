@@ -1,0 +1,17 @@
+name = "prrte_jll"
+uuid = "eb928a42-fffd-568d-ab9c-3f5d54fc65b9"
+version = "2.0.0+0"
+
+[deps]
+JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+libevent_jll = "1080aeaf-3a6a-583e-a51c-c537b09f60ec"
+Hwloc_jll = "e33a78d0-f292-5ffc-b300-72abe9b543c8"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+PMIx_jll = "32165bc3-0280-59bc-8c0b-c33b6203efab"
+
+[compat]
+JLLWrappers = "1.2.0"
+julia = "1.6"
+PMIx_jll = "4.1.0"
