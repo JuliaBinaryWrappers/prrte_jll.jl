@@ -1,91 +1,119 @@
 [[prrte]]
 arch = "aarch64"
-git-tree-sha1 = "e294e9a77321af2d48c3c1ff075385e24fa03290"
-libc = "glibc"
-os = "linux"
-
-    [[prrte.download]]
-    sha256 = "b05604852a68b8e92957b01804d98227ab5bdb354cf190ec0b5b5c1daf938ae2"
-    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v2.0.0+2/prrte.v2.0.0.aarch64-linux-gnu.tar.gz"
-[[prrte]]
-arch = "aarch64"
-git-tree-sha1 = "c289df73885740a084242f8026ce80aaab66ec5d"
-libc = "musl"
-os = "linux"
-
-    [[prrte.download]]
-    sha256 = "8563377fff3f40b741f69e165cda58c8b6491af5d969c89e98a87fbcf96e2308"
-    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v2.0.0+2/prrte.v2.0.0.aarch64-linux-musl.tar.gz"
-[[prrte]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "e21027f5b82bc5a01468d592f6c08440484c4afe"
-libc = "glibc"
-os = "linux"
-
-    [[prrte.download]]
-    sha256 = "e8fe40c3364026e3931ca2434e2c924be5254b6663117b8003ea079a817e2d39"
-    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v2.0.0+2/prrte.v2.0.0.armv7l-linux-gnueabihf.tar.gz"
-[[prrte]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "dd41165a5b1ace03f3e36e374fd68c1e4c28d391"
-libc = "musl"
-os = "linux"
-
-    [[prrte.download]]
-    sha256 = "ebc14e05303bbeb336f96b3af396d71d0c988f5367df1284be40a3adf58599e9"
-    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v2.0.0+2/prrte.v2.0.0.armv7l-linux-musleabihf.tar.gz"
-[[prrte]]
-arch = "i686"
-git-tree-sha1 = "56eb5d62d8b5f543b6d19286a23688dbe67af238"
-libc = "glibc"
-os = "linux"
-
-    [[prrte.download]]
-    sha256 = "c85c0218437b3e0086a7f2a7c22da16bdf24f3a9acf1b0a289252969318015c1"
-    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v2.0.0+2/prrte.v2.0.0.i686-linux-gnu.tar.gz"
-[[prrte]]
-arch = "i686"
-git-tree-sha1 = "93558b2b8624abce121506e07663a9a09e69ebb9"
-libc = "musl"
-os = "linux"
-
-    [[prrte.download]]
-    sha256 = "3c41656a1de88b0d5a9abc6042e7b6a9b70a7c355b675a7fba4deb120d21a937"
-    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v2.0.0+2/prrte.v2.0.0.i686-linux-musl.tar.gz"
-[[prrte]]
-arch = "powerpc64le"
-git-tree-sha1 = "8e79790e802d5e427df0e9cd468199ca56c5f568"
-libc = "glibc"
-os = "linux"
-
-    [[prrte.download]]
-    sha256 = "b95e0cd81c5ffa060a4eb9bb49bdf931d119c26807285035b467e2f2dd20ba13"
-    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v2.0.0+2/prrte.v2.0.0.powerpc64le-linux-gnu.tar.gz"
-[[prrte]]
-arch = "x86_64"
-git-tree-sha1 = "b5c5f540fb9337d78be5ed55bd37981aac0ef76e"
+git-tree-sha1 = "015185ffaa36b1ad1908fa4392e61a8a367b4c27"
 os = "macos"
 
     [[prrte.download]]
-    sha256 = "adb1adcde25073c18ae2cbed36f08e7ef1d97eb0fb9a6a41ffc187920561ca6f"
-    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v2.0.0+2/prrte.v2.0.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "10dedacefc6a4099f76707c6fd90f2757cf8810afde08aeed9be1703d8cfcbc4"
+    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v3.0.2+0/prrte.v3.0.2.aarch64-apple-darwin.tar.gz"
 [[prrte]]
-arch = "x86_64"
-git-tree-sha1 = "0398a9c4c815e736983d734949b7291aaf9d11b5"
+arch = "aarch64"
+git-tree-sha1 = "8c803f712c7abcb87f46a456c82dc16b5f8a3740"
 libc = "glibc"
 os = "linux"
 
     [[prrte.download]]
-    sha256 = "6ef6fc87bfdba8fb240fc175e6dbe39d99015cf9dd7726d8b07e2a66fca3617f"
-    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v2.0.0+2/prrte.v2.0.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "760f009a4343b3cd2c6dea8f09a0bd5243ed53076f9f28a87202e5ad026d6f58"
+    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v3.0.2+0/prrte.v3.0.2.aarch64-linux-gnu.tar.gz"
 [[prrte]]
-arch = "x86_64"
-git-tree-sha1 = "e5cbf6a81ae779d28b5ef817cd5eed01b7376cd0"
+arch = "aarch64"
+git-tree-sha1 = "b1763f440c3e3db49739d6eb54d554a0bce9a2fe"
 libc = "musl"
 os = "linux"
 
     [[prrte.download]]
-    sha256 = "da46d942c051c38360f8463839de097b14c3e82015c8a71dcf60380dd9677d89"
-    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v2.0.0+2/prrte.v2.0.0.x86_64-linux-musl.tar.gz"
+    sha256 = "1e42e6d3c938297b644367c6ce10037a425119712f3bc17203aca7e89a2004c7"
+    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v3.0.2+0/prrte.v3.0.2.aarch64-linux-musl.tar.gz"
+[[prrte]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "d18d34d0781e7a8ac3bb3d64c4856edd24803ec5"
+libc = "glibc"
+os = "linux"
+
+    [[prrte.download]]
+    sha256 = "58a96dd36f44862d3e0ab1df71cf5f344cf308877176e22a47fe9b7c40ff74f0"
+    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v3.0.2+0/prrte.v3.0.2.armv6l-linux-gnueabihf.tar.gz"
+[[prrte]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "b10d31ec1e33b122f004156902cc97da7817339e"
+libc = "musl"
+os = "linux"
+
+    [[prrte.download]]
+    sha256 = "8f5a4baa41b9a5ce1a18dbb08b3db9fed807501ad02ac32a56780f7184472d13"
+    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v3.0.2+0/prrte.v3.0.2.armv6l-linux-musleabihf.tar.gz"
+[[prrte]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "a61d8b183a9b1f7af70f11db63de567542647151"
+libc = "glibc"
+os = "linux"
+
+    [[prrte.download]]
+    sha256 = "1659d1a3794606394beba3ce9c06360b042d4a281b7689d5161134279de0ebea"
+    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v3.0.2+0/prrte.v3.0.2.armv7l-linux-gnueabihf.tar.gz"
+[[prrte]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "b2c4b7dc0738d214eba6406ba29eff51993ba52b"
+libc = "musl"
+os = "linux"
+
+    [[prrte.download]]
+    sha256 = "6f49ce4887b4f65b123a79a4b26fab7f34964e4f93a4bf49d8fa0c943ccfccca"
+    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v3.0.2+0/prrte.v3.0.2.armv7l-linux-musleabihf.tar.gz"
+[[prrte]]
+arch = "i686"
+git-tree-sha1 = "4ba4ec1098ad352d51821b978c9f5e6ea26ab8ab"
+libc = "glibc"
+os = "linux"
+
+    [[prrte.download]]
+    sha256 = "429da5d60fbde854ed3ce71ec19ef394c8f7bf6aa31580c00c2d10a821997d59"
+    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v3.0.2+0/prrte.v3.0.2.i686-linux-gnu.tar.gz"
+[[prrte]]
+arch = "i686"
+git-tree-sha1 = "15878862c1215cd913b9622836197e5c55d7a54f"
+libc = "musl"
+os = "linux"
+
+    [[prrte.download]]
+    sha256 = "b9effe07ba500055ff0c12f6a14a218abde456e6ed0139f2494a8cf95e92af7e"
+    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v3.0.2+0/prrte.v3.0.2.i686-linux-musl.tar.gz"
+[[prrte]]
+arch = "powerpc64le"
+git-tree-sha1 = "966bbef6227eee84ee671e168d842fd829f71123"
+libc = "glibc"
+os = "linux"
+
+    [[prrte.download]]
+    sha256 = "0dced49312256769f0758d7647eb221feeba72c24806d8de051976d57869aedb"
+    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v3.0.2+0/prrte.v3.0.2.powerpc64le-linux-gnu.tar.gz"
+[[prrte]]
+arch = "x86_64"
+git-tree-sha1 = "4165deda7119811e572cda92ef8c5ff0c65bca59"
+os = "macos"
+
+    [[prrte.download]]
+    sha256 = "12b8695ace4a438b18559dbfa0570f8e2b0a41574a6c03a9499405c06816c9fe"
+    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v3.0.2+0/prrte.v3.0.2.x86_64-apple-darwin.tar.gz"
+[[prrte]]
+arch = "x86_64"
+git-tree-sha1 = "6fb6ef7336c0d324b6535fdbbae0fcbdba974c45"
+libc = "glibc"
+os = "linux"
+
+    [[prrte.download]]
+    sha256 = "873c4328a13f41e7b284281ad65af32a844be5eb694419ac77c1d9e494ccfa13"
+    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v3.0.2+0/prrte.v3.0.2.x86_64-linux-gnu.tar.gz"
+[[prrte]]
+arch = "x86_64"
+git-tree-sha1 = "2e016aefcb41ae84096296f5e53686f2ed309698"
+libc = "musl"
+os = "linux"
+
+    [[prrte.download]]
+    sha256 = "b5c4d8c9f5e9fc8f9470e606378eae24c3a5d33def1b10ab2d0f6db4c57c6799"
+    url = "https://github.com/JuliaBinaryWrappers/prrte_jll.jl/releases/download/prrte-v3.0.2+0/prrte.v3.0.2.x86_64-linux-musl.tar.gz"
